@@ -1,0 +1,334 @@
+    1  cd /root/data/
+    2  vi manual.txt
+    3  vi manual.txt
+    4  ls
+    5  vi manual.txt
+    6  ls
+    7  ll
+    8  ls -al
+    9  echo $0
+   10  pwd
+   11  ls -al
+   12  cd 
+   13  ls -al
+   14  ls -al /bin/*sh
+   15  cat /etc/passwd
+   16  vi .bashrc
+   17  .bashrc
+   18  . .bashrc
+   19  ll
+   20  cat .bash
+   21  cat .bashrc
+   22  su - inwoo
+   23  cd /etc/profile
+   24  cd /etc/profile
+   25  cd /etc/profile.d
+   26  ls
+   27  cd ..
+   28  vi /etc/profile
+   29  su - inwoo
+   30  cd ~
+   31  cd /root/data
+   32  vi manual.txt
+   33  history
+   34  history
+   35  vi manual.txt
+   36  grep "저장"
+   37  grep "i"
+   38  grep "dd"
+   39  grep i *
+   40  grep 저장 *
+   41  grep " 저장" *
+   42  vi manual.txt 
+   43  dnf install git -y
+   44  git config --list
+   45  ll
+   46  cd ~
+   47  ll .ssh
+   48  ssh-keygen -t rsa
+   49  vi memo.txt
+   50  vi manual.txt
+   51  cd /root/data/
+   52  vi manual.txt 
+   53  cd -
+   54  vi memo.txt 
+   55  ls -al
+   56  exit
+   57  vi /etc/profile
+   58  ll
+   59  cd ~
+   60  pwwd
+   61  pwd
+   62  ll
+   63  vi .bashrc
+   64  vi .bash_profile
+   65  exit
+   66  cd ~
+   67  vi zen.txt
+   68  dnf install shadow-utils bind-utils -y
+   69  vi zen.txt
+   70  find /root/. zen.txt
+   71  find . zen.txt
+   72  ll
+   73  cd -
+   74  ll
+   75  cd -
+   76  vi zen.txt
+   77  grep quam *
+   78  vi zen.txt
+   79  history
+   80  vi zen.txt
+   81  grep "quam" *
+   82  grep "\squam" *
+   83  grep \squam *
+   84  grep "\squam" *
+   85  grep "q[a-z]o" *
+   86  grep "[A-Za-z]m" *
+   87  grep "[A-Za-z]*m$" *
+   88  grep "^S" *
+   89   cat zen.txt
+   90   cat zen.txt | awk '{print $1}'
+   91   cat zen.txt | awk '{print $1" "$3}'
+   92  cat zen.txt | sed 's/o/0/g'
+   93  cat zen.txt | sed 's/[LMA]/0/g'
+   94  cat zen.txt | sed 's/[lmo]/0/g'
+   95  cat zen.txt
+   96  vi zen.txt
+   97  dnf list
+   98  dnf list | grep git
+   99  git config -l
+  100  ll
+  101  ll .ssh
+  102  rm -rf *
+  103  ls
+  104  rm -rf .ssh/*
+  105  ll
+  106  ll .ssh
+  107  ssh-keygen -t rsa
+  108  ll .ssh
+  109  history
+  110  git config --global user.name inwoo
+  111  git config --global user.email ninw0205@gmail.com
+  112  git config -l
+  113  cat .ssh/id_rsa.pub 
+  114  ll
+  115  mkdir workspace
+  116  cd workspace/
+  117  ll
+  118  git clone git@github.com:ninw0205/ydp7.git
+  119  ll
+  120  cd ydp7/
+  121  ll
+  122  echo "ttt" >> test.txt
+  123  cat test.txt 
+  124  git status
+  125  git add .
+  126  git commit -m "first commit"
+  127  git config -l
+  128  git branch -v
+  129  git branch
+  130  echo $PS1
+  131  echo $ps1
+  132  echo $$
+  133  echo $
+  134  echo \$
+  135  git status
+  136  git push -u origin main
+  137  git add --help
+  138  man
+  139  ㅇdnf install man-db man-pages -y
+  140  dnf install man-db man-pages -y
+  141  man git
+  142  git add --help
+  143  git branch
+  144  vi ~/gacp.sh
+  145  chmod +x ~/gacp.sh
+  146  ll ~/
+  147  vi ~/gacp.sh
+  148  cat ~/gacp.sh
+  149  echo "ppp" >> test.txt
+  150  cat test.txt
+  151  ~/gacp.sh "append ppp"
+  152  pwd
+  153  cd
+  154  vi .bash_profile
+  155  source .bash_profile
+  156  echo 'rrr' >> test.txt
+  157  ll
+  158  cat test.txt
+  159  rm -rf test.txt
+  160  cd -
+  161  echo 'rrr' >> test.txt
+  162  echo test.txt
+  163  cat test.txt
+  164  gacp "append rrr"
+  165  which man
+  166  cat /usr/bin/man
+  167  vi /usr/bin/man
+  168  ll /usr/bin/man
+  169  ll /etc/alternatives/man
+  170  ll /usr/bin/man.man-db
+  171  zcat /usr/share/man/man1/man.1.gz | less
+  172  history
+  173  which git
+  174  which ps
+  175  which dnf
+  176  echo $PS1
+  177  echo $PS2
+  178  echo $PS3
+  179  echo $PS4
+  180  echo $PS5
+  181  echo $PS0
+  182  echo $PS6
+  183  echo $PS1
+  184  git branch 2
+  185  cd /dev/null 
+  186  cat /dev/null 
+  187  man sed
+  188  cat .git/config
+  189  ll
+  190  cd .git/
+  191  ll
+  192  cat HEAD 
+  193  cd logs/
+  194  ll
+  195  cat HEAD 
+  196  cd refs/
+  197  ll
+  198  cd heads/
+  199  ll
+  200  cat main 
+  201  cd ..
+  202  cd ..
+  203  cd ..
+  204  cd ..
+  205  git log
+  206  git reflog
+  207  git branch -av
+  208  git branch -d 2
+  209  git branch -av
+  210  echo $PS1
+  211  vi ~/.bash_profile 
+  212  source ~/.bash_profile 
+  213  vi ~/.bash_profile 
+  214  source ~/.bash_profile 
+  215  vi ~/.bash_profile 
+  216  source ~/.bash_profile 
+  217  vi ~/.bash_profile 
+  218  source ~/.bash_profile 
+  219  vi ~/.bash_profile 
+  220  source ~/.bash_profile 
+  221  vi ~/.bash_profile 
+  222  source ~/.bash_profile 
+  223  vi ~/.bash_profile 
+  224  vi ~/.bash_profile 
+  225  source ~/.bash_profile 
+  226  vi ~/.bash_profile 
+  227  source ~/.bash_profile 
+  228  vi ~/.bash_profile 
+  229  source ~/.bash_profile 
+  230  vi ~/.bash_profile 
+  231  source ~/.bash_profile 
+  232  vi ~/.bash_profile 
+  233  source ~/.bash_profile 
+  234  vi ~/.bash_profile 
+  235  source ~/.bash_profile 
+  236  vi ~/.bash_profile 
+  237  source ~/.bash_profile 
+  238  vi ~/.bash_profile 
+  239  source ~/.bash_profile 
+  240  vi ~/.bash_profile 
+  241  source ~/.bash_profile 
+  242  vi ~/.bash_profile 
+  243  source ~/.bash_profile 
+  244  vi ~/.bash_profile 
+  245  source ~/.bash_profile 
+  246  vi ~/.bash_profile 
+  247  source ~/.bash_profile 
+  248  vi ~/.bash_profile 
+  249  source ~/.bash_profile 
+  250  vi ~/.bash_profile 
+  251  source ~/.bash_profile 
+  252  vi ~/.bash_profile 
+  253  source ~/.bash_profile 
+  254  vi ~/.bash_profile 
+  255  source ~/.bash_profile 
+  256  vi ~/.bash_profile 
+  257  source ~/.bash_profile 
+  258  vi ~/.bash_profile 
+  259  source ~/.bash_profile 
+  260  vi ~/.bash_profile 
+  261  source ~/.bash_profile 
+  262  vi ~/.bash_profile 
+  263  source ~/.bash_profile 
+  264  vi ~/.bash_profile 
+  265  source ~/.bash_profile 
+  266  vi ~/.bash_profile 
+  267  source ~/.bash_profile 
+  268  vi ~/.bash_profile 
+  269  source ~/.bash_profile 
+  270  vi ~/.bash_profile 
+  271  source ~/.bash_profile 
+  272  git checkout -b kk
+  273  git checkout -
+  274  git branch -d kk
+  275  git branch -av
+  276  cd ~
+  277  cd ..
+  278  cd -
+  279  cd -
+  280  cd ~/workspace/ydp7/
+  281  ll
+  282  vi ~/.bash_profile 
+  283  git config --list
+  284  git statuts
+  285  git status
+  286  vi ~/data/manual.txt
+  287  cd ~/data/
+  288  ls
+  289  ll
+  290  cd -
+  291  vi ~/data/manual.txt 
+  292  git config -l
+  293  git init
+  294  exit
+  295  source ~/.bash_profile 
+  296  cd ~
+  297  ls
+  298  cd workspace/
+  299  ls
+  300  cd ydp7/
+  301  ls
+  302  git pull origin main
+  303  ls
+  304  ll
+  305  git checkout -b develop
+  306  vi test.txt
+  307  git status
+  308  git add test.txt
+  309  git status
+  310  git restored --staged test.txt
+  311  git resotre --staged test.txt
+  312  git restore --staged test.txt
+  313  git restore test.txt
+  314  cat test.txt
+  315  git ls-files
+  316  git ls-files --stage
+  317  git lg
+  318  git remote show origin
+  319  git diff HEAD
+  320  git rm test.txt
+  321  ll
+  322  git checkout -- .
+  323  ls
+  324  git status
+  325  git restored --staged test.txt
+  326  git restore --staged test.txt
+  327  ls
+  328  git status
+  329  git restore test.txt
+  330  ll
+  331  git status
+  332  git checkout -
+  333  git checkout -
+  334  history >> history.0530
